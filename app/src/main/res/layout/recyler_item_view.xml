@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/email_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textColor="#1D2120"
+        android:textSize="20sp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/number_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1D2120"
+        android:textAlignment="center"
+        android:text="number"
+        android:textSize="20sp"/>
+</LinearLayout>
